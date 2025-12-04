@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import Team from '../components/Team'
 
 export default function About(){
@@ -22,8 +23,8 @@ export default function About(){
           <p className="small"><strong>Mission:</strong> Empower teams to build delightful user experiences with reliable engineering. <br/>
             <strong>Vision:</strong> To be the go-to partner for early-stage companies building mission-critical web products.</p>
           <div style={{marginTop:12}}>
-            <a className="btn" href="/contact">Contact Us</a>
-            <a className="link" href="/" style={{marginLeft:12}}>View Services</a>
+            <Link className="btn" to="/contact">Contact Us</Link>
+            <Link className="link" to="/" style={{marginLeft:12}}>View Services</Link>
           </div>
         </div>
       </section>

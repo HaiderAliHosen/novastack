@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 export default function Services(){
   const items = [
     {title:'Cloud Architecture', desc:'Scalable backends and microservices.'},
@@ -14,7 +15,7 @@ export default function Services(){
             <h4 style={{margin:'0 0 6px'}}>{s.title}</h4>
             <p className="small">{s.desc}</p>
             <div style={{marginTop:12}}>
-              <a className="link" href="/contact">Contact Us →</a>
+              <Link className="link" to="/contact">Contact Us →</Link>
             </div>
           </div>
         ))}

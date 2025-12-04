@@ -35,9 +35,9 @@ export default function Navbar(){
           Contact
         </Link>
 
-        <a className="link btn secondary" href="/contact" onClick={() => setMenuOpen(false)}>
+        <Link className="link btn secondary" to="/contact" onClick={() => setMenuOpen(false)}>
           Get Started
-        </a>
+        </Link>
       </nav>
 
     </header>

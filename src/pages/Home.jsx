@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import Hero from '../components/Hero'
 import Services from '../components/Services'
 import Testimonials from '../components/Testimonials'
@@ -17,7 +18,7 @@ export default function Home(){
         <div className="card">
           <h3 className="section-title">Ready to start?</h3>
           <p className="small">Talk to our team and get a free consultation.</p>
-          <a className="btn" href="/contact">Get Started</a>
+          <Link className="btn" to="/contact">Get Started</Link>
         </div>
       </section>
     </div>

@@ -1,0 +1,21 @@
+import React from 'react'
+export default function Hero({title, subtitle, cta}){
+  return (
+    <section className="header-hero">
+      <div className="hero-content">
+        <h1 className="hero-title">{title}</h1>
+        <p className="hero-sub">{subtitle}</p>
+        <div style={{display:'flex',gap:12}}>
+          <a className="btn" href="/contact">{cta ?? 'Get Started'}</a>
+          <a className="btn secondary" href="/about">Learn More</a>
+        </div>
+      </div>
+      <div style={{width:320}}>
+        <div className="card">
+          <h4 style={{margin:'0 0 8px'}}>Why NovaStack?</h4>
+          <p className="small">We deliver modern cloud applications with clean code and fast delivery.</p>
+        </div>
+      </div>
+    </section>
+  )
+}

@@ -1,96 +1,93 @@
-🌐 NovaStack Technologies – React Website
+# 🌐 NovaStack Technologies – React Website
 
-A fully responsive 3-page website built using React + Vite for the NovaStack Technologies fictional company.
-This project includes Home, About, and Contact pages with reusable components, clean routing, and modern UI design.
+A fully responsive 3-page website built using **React + Vite** for the fictional tech brand **NovaStack Technologies**.  
+This project includes Home, About, and Contact pages with reusable components, modern routing, clean UI, and proper Vercel deployment configuration.
 
-Live Demo → Add your Vercel link here
-GitHub Repo → This repo
+**Live Demo:** https://novastack-eta.vercel.app/
+**Repository:** https://github.com/HaiderAliHosen/novastack
 
-🚀 Tech Stack
+---
 
-React (Vite)
+## 🚀 Tech Stack
 
-React Router
+- **React (Vite)**
+- **React Router**
+- **CSS (Custom)**
+- **Vercel** (Deployment)
 
-CSS (Custom)
+---
 
-Vercel for deployment
+## 📄 Pages Included
 
-📄 Pages Included
-1. Home Page
+### ✅ Home Page
+- Hero section (headline, subtext, CTA)
+- Services/Features (minimum 3)
+- Testimonials (minimum 2)
+- CTA buttons (“Get Started”, “Learn More”)
 
-Hero section
+### ✅ About Page
+- Company introduction
+- Mission & Vision
+- Team section (cards with placeholders)
+- CTA button (“Contact Us”)
 
-Services/features
+### ✅ Contact Page
+- Contact form (Name, Email, Message)
+- Basic validation
+- Success message after submit
+- Social/contact links (email, phone, X/Twitter)
+- CTA button (“Send Message”)
 
-Testimonials
+---
 
-Call-to-action buttons
+## 📁 Folder Structure
+<img width="308" height="672" alt="image" src="https://github.com/user-attachments/assets/34ff0ff7-fbc9-4e61-8e38-3f800fb54a49" />
 
-2. About Page
 
-Company intro
+---
 
-Mission & Vision
+## 🔧 Local Development
 
-Team section
-
-CTA button
-
-3. Contact Page
-
-Contact form (with basic validation)
-
-Social/contact links
-
-Success message on submit
-
-📁 Folder Structure
-src/
-  components/
-    Navbar.jsx
-    Footer.jsx
-    Hero.jsx
-    ...
-  pages/
-    Home.jsx
-    About.jsx
-    Contact.jsx
-  App.jsx
-  main.jsx
-  index.css
-vercel.json
-
-🔧 Development
-Install dependencies
+### Install dependencies
+```bash
 npm install
 
-Start development server
+## Start dev server
+```bash
 npm run dev
 
-Build for production
+## Build for production
+```bash
 npm run build
+
+🌍 Deployment (Vercel)
+
+To ensure React Router works correctly after deployment, this project uses:
+
+vercel.json
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
 
 🧩 Features
 
-Fully responsive (mobile + tablet + desktop)
+* Fully responsive (mobile, tablet, and desktop)
 
-Reusable components
+* Reusable UI components
 
-React Router navigation with active link highlighting
+* Client-side routing with React Router
 
-Smooth client-side routing
+* Active link highlighting in the navigation bar
 
-Fix for internal navigation buttons on Vercel
+* Fixed internal navigation issue on Vercel by replacing <a> with <Link>
 
-Modern and consistent design
+* Clean and consistent layout across all pages
 
-Clean commit history & branch structure
+🎨 Design Rationale
 
-🎨 Design Rationale (4–6 lines)
-
-The design focuses on clarity, consistency, and modern aesthetics suitable for a tech brand.
-A blue accent color emphasizes trust and technology, while clean spacing improves readability.
-Reusable components ensure consistent styling across all pages.
-The layout adapts seamlessly to all screen sizes to provide a smooth user experience.
-The goal was to make the interface simple, intuitive, and visually appealing without unnecessary complexity.
+NovaStack’s design focuses on clarity and speed: a clean layout, prominent calls-to-action, and simple type hierarchy to guide users quickly to contact or services.
+I used reusable components (Hero, Services, Team, ContactForm) to ensure consistent spacing and easy maintenance.
+The responsive grid and breakpoints provide readable layouts on mobile and desktop without extra frameworks.
+The contact form includes basic client-side validation and a clear success state to demonstrate UX flows for a production-ready prototype.

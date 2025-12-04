@@ -59,7 +59,7 @@ export default function ContactForm(){
       </label>
       <div style={{display:'flex',gap:8,alignItems:'center'}}>
         <button className="btn" type="submit">Send Message</button>
-        <div className="small">Or email: hello@novastack.example</div>
+        <div className="small">Or email: hello@novastack.tech</div>
       </div>
     </form>
   )

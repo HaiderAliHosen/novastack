@@ -12,12 +12,12 @@ export default function Contact(){
         <aside style={{minWidth:220}}>
           <div className="card">
             <h4>Contact & Social</h4>
-            <p className="small">Email: hello@novastack.example</p>
+            <p className="small">Email: hello@novastack.tech</p>
             <p className="small">Phone: +880 1XX-XXXXXXX</p>
-            <div style={{marginTop:12}}>
-              <a className="link" href="mailto:hello@novastack.example">Email us</a><br/>
-              <a className="link" href="tel:+8801XXXXXXXX">Call us</a><br/>
-              <a className="link" href="https://twitter.com">Twitter</a>
+            <div className="contact-links" style={{ marginTop: 12 }}>
+            <a className="link" href="mailto:hello@novastack.tech">Email us</a>
+            <a className="link" href="tel:+8801XXXXXXXX">Call us</a>
+            <a className="link" href="https://twitter.com">X</a>
             </div>
           </div>
         </aside>

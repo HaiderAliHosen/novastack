@@ -43,3 +43,14 @@ a.link:hover{background:#f1f5f9}
 .input,textarea{padding:10px;border-radius:8px;border:1px solid #e6e9ef}
 textarea{min-height:120px}
 .small{font-size:14px;color:var(--muted)}
+
+.contact-links a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.link.active {
+  color: #0b74ff;
+  font-weight: 600;
+  border-bottom: 2px solid #0b74ff;
+}

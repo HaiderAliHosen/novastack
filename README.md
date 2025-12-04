@@ -1,16 +1,96 @@
-# React + Vite
+🌐 NovaStack Technologies – React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive 3-page website built using React + Vite for the NovaStack Technologies fictional company.
+This project includes Home, About, and Contact pages with reusable components, clean routing, and modern UI design.
 
-Currently, two official plugins are available:
+Live Demo → Add your Vercel link here
+GitHub Repo → This repo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tech Stack
 
-## React Compiler
+React (Vite)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React Router
 
-## Expanding the ESLint configuration
+CSS (Custom)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vercel for deployment
+
+📄 Pages Included
+1. Home Page
+
+Hero section
+
+Services/features
+
+Testimonials
+
+Call-to-action buttons
+
+2. About Page
+
+Company intro
+
+Mission & Vision
+
+Team section
+
+CTA button
+
+3. Contact Page
+
+Contact form (with basic validation)
+
+Social/contact links
+
+Success message on submit
+
+📁 Folder Structure
+src/
+  components/
+    Navbar.jsx
+    Footer.jsx
+    Hero.jsx
+    ...
+  pages/
+    Home.jsx
+    About.jsx
+    Contact.jsx
+  App.jsx
+  main.jsx
+  index.css
+vercel.json
+
+🔧 Development
+Install dependencies
+npm install
+
+Start development server
+npm run dev
+
+Build for production
+npm run build
+
+🧩 Features
+
+Fully responsive (mobile + tablet + desktop)
+
+Reusable components
+
+React Router navigation with active link highlighting
+
+Smooth client-side routing
+
+Fix for internal navigation buttons on Vercel
+
+Modern and consistent design
+
+Clean commit history & branch structure
+
+🎨 Design Rationale (4–6 lines)
+
+The design focuses on clarity, consistency, and modern aesthetics suitable for a tech brand.
+A blue accent color emphasizes trust and technology, while clean spacing improves readability.
+Reusable components ensure consistent styling across all pages.
+The layout adapts seamlessly to all screen sizes to provide a smooth user experience.
+The goal was to make the interface simple, intuitive, and visually appealing without unnecessary complexity.

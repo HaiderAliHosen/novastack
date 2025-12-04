@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 export default function Hero({title, subtitle, cta}){
   return (
     <section className="header-hero">
       <div className="hero-content">
         <h1 className="hero-title">{title}</h1>
         <p className="hero-sub">{subtitle}</p>
-        <div style={{display:'flex',gap:12}}>
-          <a className="btn" href="/contact">{cta ?? 'Get Started'}</a>
-          <a className="btn secondary" href="/about">Learn More</a>
+        <div style={{ display: 'flex', gap: 12 }}>
+          <Link className="btn" to="/contact">{cta ?? 'Get Started'}</Link>
+          <Link className="btn secondary" to="/about">Learn More</Link>
         </div>
       </div>
       <div style={{width:320}}>
